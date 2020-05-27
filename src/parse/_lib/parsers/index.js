@@ -1338,7 +1338,7 @@ var parsers = {
       return date
     },
 
-    incompatibleTokens: ['b', 'B', 'H', 'K', 'k', 't', 'T']
+    incompatibleTokens: ['b', 'B', 'H', 'k', 't', 'T']
   },
 
   // AM, PM, midnight
@@ -1515,7 +1515,7 @@ var parsers = {
       return date
     },
 
-    incompatibleTokens: ['a', 'b', 'h', 'H', 'k', 't', 'T']
+    incompatibleTokens: ['b', 'h', 'H', 'k', 't', 'T']
   },
 
   // Hour [1-24]
